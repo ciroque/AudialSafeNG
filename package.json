@@ -1,0 +1,45 @@
+{
+  "name": "audialsafeng",
+  "version": "1.0.0",
+  "description": "Web app to monitor ambient sound levels.",
+  "main": "webpack.config.dev.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciroque/AudialSafeNG.git"
+  },
+  "author": "Steve Wagner (scalawagz@outlook.com)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ciroque/AudialSafeNG/issues"
+  },
+  "homepage": "https://github.com/ciroque/AudialSafeNG#readme",
+  "devDependencies": {
+    "babel-brunch": "^6.1.1",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "brunch": "^2.10.12",
+    "clean-css-brunch": "^2.10.0",
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1",
+    "jest-fetch-mock": "^1.2.1",
+    "react-test-renderer": "^16.0.0",
+    "sass-brunch": "^2.10.4",
+    "uglify-js-brunch": "^2.10.0"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  }
+}
